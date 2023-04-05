@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title": "5 Less-Known AI Tools to Boost Productivity!",
+    "author": "Lucia Pan",
+    "url": "https://artificialcorner.com/5-less-known-ai-tools-to-boost-productivity-a7eac793becc",
+    "likes": 5
+}
