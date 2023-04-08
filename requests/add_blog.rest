@@ -2,8 +2,8 @@ POST http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-    "title": "5 Less-Known AI Tools to Boost Productivity!",
-    "author": "Lucia Pan",
-    "url": "https://artificialcorner.com/5-less-known-ai-tools-to-boost-productivity-a7eac793becc",
-    "likes": 5
-}
+        "title": "Type wars",
+        "author": "Robert C. Martin",
+        "url": "http://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html",
+        "likes": 2
+      } 

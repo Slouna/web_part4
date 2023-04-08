@@ -80,8 +80,8 @@ test('there is 4 blogs', async () => {
 })
 
 test('adding blog', async () => {
-    blogObject = new Blog(initialBlogs[4])
-    await blogObject.save()
+    const newBlogObject = new Blog(initialBlogs[4])
+    await newBlogObject.save()
     
     const response = await api.get('/api/blogs')
     expect(response.body).toHaveLength(5)
