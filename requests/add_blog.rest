@@ -2,8 +2,10 @@ POST http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-        "title": "Type wars",
+        "title": "First class tests",
         "author": "Robert C. Martin",
-        "url": "http://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html",
-        "likes": 2
-      } 
+        "url": "http://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.htmll",
+        "likes": 10,
+        "userId": "64312ab7bb3cf4d177913c45"
+        
+      }
